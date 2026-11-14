@@ -1,12 +1,12 @@
 """news-image-01 entry: copy the pre-rendered broadsheet image to /output.
 
-The image (entry.png) is the final A6 broadsheet: "Friday 13 November 2026 —
+The image (entry.png) is the final A7b broadsheet: "Friday 13 November 2026 —
 Global Briefing", 18 verified stories across 5 continents, rendered offline
-with Python/PIL (newsprint #FAF8F5, ink #0A0A0A). A6 upgrades A4: radar-dish
-Bahrain hero, office-workers Microsoft 365 outage illustration, NVIDIA
-resignation promoted to the Tier 2 photo grid with an emerald GPU plate,
-sentence-case bold sans-serif digest. This program only copies it to the
-grading output directory, byte for byte.
+with Python/PIL (newsprint #FAF8F5, ink #0A0A0A). A7b upgrades A6: the footer
+is removed entirely, the China drills headline carries the scale number
+("100-SHIP") with a coherent deck, and the Nairobi headline reads "6 dead"
+as one unit. This program only copies it to the grading output directory,
+byte for byte.
 """
 
 import os
